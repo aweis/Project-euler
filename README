@@ -1,10 +1,18 @@
-These are my solutions to the first 20 problems of project euler www.projecteuler.net
+These are my solutions to the first few problems of project euler www.projecteuler.net
+
+The first 20 solutions are in Ruby.
 It was fun coding these problems in a very friendly and flexible language like ruby.
+
+The next few solutions are coded in Haskell.
+Haskell is very different.  I enjoyed the laziness and the functional code is very clean.  Monads are hard to work with at first, but they are well worth their price for what they guarantee in my programs.
 
 These are free for anyone to use.  Please try the problems on your own first.
 
-These problems were run on the following version of ruby:
+These problems were run on the following version of Ruby:
 ruby 1.9.2p290 (2011-07-09 revision 32553) [x86_64-darwin11.0.0]
+
+These problems were run on the following version of Haskell:
+Glasgow Haskell Compiler, Version 7.0.4, for Haskell 98, stage 2 booted by GHC version 6.12.3
 
 Thanks,
 
