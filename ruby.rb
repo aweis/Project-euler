@@ -211,6 +211,10 @@ def find_n_primes n
   return acc
 end
 
+def seven 
+  find_nth_prime_b 10001
+end 
+
 #Find the greatest product of 5 consecutive digits in the 1000 digit number
 def eight 
   max = 0
@@ -474,8 +478,8 @@ end
 #Starting in the top left corner in a 20 by 20 grid, how many routes are there to the bottom right corner?
 #this solves but it takes too long... Notice that the solution is just Choose(2n, n)
 def fifteen 
-  size_x = 21
-  size_y = 21
+  size_x = 10
+  size_y = 10
   row = []
   for i in 1..size_x
     row.push(0)
@@ -724,6 +728,7 @@ end
 #How many Sundays fell on the first of the month during the twentieth century?
 #This is an example of a problem that can be solved in ruby in < 15 lines but would take much longer in other 
 #languages that do not have such a large and robust standard library (.sunday? :-) )
+require 'date'
 def nineteen
   count = 0
   for year in 1901..2000
