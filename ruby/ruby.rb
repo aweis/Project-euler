@@ -478,7 +478,7 @@ end
 #Starting in the top left corner in a 20 by 20 grid, how many routes are there to the bottom right corner?
 #this solves but it takes too long... Notice that the solution is just Choose(2n, n)
 def fifteen 
-  size_x = 10
+  size_x = 10 
   size_y = 10
   row = []
   for i in 1..size_x
