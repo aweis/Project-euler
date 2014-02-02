@@ -4,5 +4,5 @@
 public interface Euler {
 
     /* The answer to a Project Euler Problem */
-    public String answer();
+    public String answer() throws Exception;
 }
