@@ -1,6 +1,6 @@
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        System.out.println(new Problem25().answer());
+        System.out.println(new Problem26().answer());
     }
 }
