@@ -27,7 +27,7 @@ public class Problem31 implements Euler {
         if (amount < 0) {
             return 0;
         }
-        if (coins.length <= 0 && amount > 0) {
+        if(coins.length == 0) {
             return 0;
         }
 
