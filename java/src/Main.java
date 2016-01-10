@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println(new Problem41().answer());
+        System.out.println(new Problem42().answer());
     }
 }
