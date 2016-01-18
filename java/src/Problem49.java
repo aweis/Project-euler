@@ -30,14 +30,14 @@ public class Problem49 implements Euler {
         for(String s : map.keySet()) {
             if(s.equals("1478")) continue; // Ignore the sample solution
             Set<Integer> v = map.get(s);
-            if(v.size() >= 3) {g
+            if(v.size() >= 3) {
                 Map<Integer,Integer> differences = allDifferences(Lists.newArrayList(v));
                 for(int key : differences.keySet()) {
                     if(differences.get(key)>=2) {
                         Set<Integer> solution = contains3digitsSeperatedByKEach(v, key);
                         if(!solution.isEmpty()) {
                             TreeSet<Integer> sortedSet = new TreeSet<Integer>();
-                            sortedSet.addAll(solution); // G
+                            sortedSet.addAll(solution); // sorting the elements
                             StringBuffer answer = new StringBuffer();
                             for(int elem : sortedSet) {
                                 answer.append(elem);
