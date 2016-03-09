@@ -1,5 +1,7 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println(new Problem50().answer());
+        System.out.println(new Problem52().answer());
     }
 }
