@@ -11,4 +11,18 @@ class EulerHelper {
     }
     return true;
   }
+
+  static List<int> primeFactorization(int n) {
+    int upTo = sqrt(n).toInt();
+    List<int> list = [];
+    for (int i = 1; i <= upTo; i++) {
+      if (is_prime(i)) {
+        list.add(i);
+      }
+    }
+    if (is_prime(n)) {
+      list.add(n);
+    }
+    return list;
+  }
 }
