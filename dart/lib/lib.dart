@@ -7,3 +7,4 @@ export "src/Problem4.dart";
 export "src/Problem5.dart";
 export "src/Problem6.dart";
 export "src/Problem7.dart";
+export "src/Problem8.dart";
