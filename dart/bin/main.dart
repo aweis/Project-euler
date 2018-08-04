@@ -2,5 +2,5 @@
 import '../lib/lib.dart';
 
 void main(List<String> args) {
-  print(new Problem9().answer());
+  print(new Problem10().answer());
 }
