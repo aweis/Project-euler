@@ -4,24 +4,17 @@
   "description": "My Project",
   "esy": {
     "build": "pesy",
-    "release": {
-      "releasedBinaries": [
-        "ReasonApp.exe"
-      ]
-    }
+    "release": { "releasedBinaries": [ "ReasonApp.exe" ] }
   },
   "buildDirs": {
     "test": {
-      "require": ["reason.lib"],
+      "require": [ "reason.lib" ],
       "main": "TestReason",
       "name": "TestReason.exe"
     },
-    "library": {
-      "name": "reason.lib",
-      "namespace": "Reason"
-    },
+    "library": { "name": "reason.lib", "namespace": "Reason", "require": ["console.lib"]},
     "executable": {
-      "require": ["reason.lib"],
+      "require": [ "reason.lib" ],
       "main": "ReasonApp",
       "name": "ReasonApp.exe"
     }
@@ -31,13 +24,12 @@
     "test": "esy x TestReason.exe"
   },
   "dependencies": {
-    "@opam/dune": ">=1.6.0",
     "@esy-ocaml/reason": "*",
-    "refmterr": "*",
+    "@opam/dune": ">=1.6.0",
+    "@reason-native/console": "^0.1.0",
     "ocaml": "^4.4.0",
-    "pesy": "*"
+    "pesy": "*",
+    "refmterr": "*"
   },
-  "devDependencies": {
-    "@opam/merlin": "*"
-  }
+  "devDependencies": { "@opam/merlin": "*" }
 }
