@@ -1,1 +1,1 @@
-Reason.Util.foo();
+print_endline(Reason.Problem1.problem());
