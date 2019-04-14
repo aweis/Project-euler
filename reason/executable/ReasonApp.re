@@ -1,1 +1,1 @@
-print_endline(Reason.Problem9.problem());
+print_endline(Reason.Problem10.problem());
