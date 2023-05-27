@@ -28,13 +28,12 @@
     "test": "esy x TestReason.exe"
   },
   "dependencies": {
-    "@esy-ocaml/reason": "*",
-    "@opam/bignum": "v0.12.0",
-    "@opam/dune": ">=1.6.0",
-    "@reason-native/console": "^0.1.0",
-    "ocaml": "^4.4.0",
-    "pesy": "*",
-    "refmterr": "*"
+    "@esy-ocaml/reason": "3.7.0",
+    "@opam/bignum": "*",
+    "@opam/dune": "*",
+    "ocaml": "4.11.0",
+    "@reason-native/console": "*",
+    "pesy": "*"
   },
-  "devDependencies": { "@opam/merlin": "*" }
+  "devDependencies": {  }
 }
